@@ -13,6 +13,7 @@ btn.addEventListener("click", () => {
     do {
         randomNumber = Math.floor(Math.random() * 100) + 1;
     } while (randomNumber === 50);
+    console.log(randomNumber);
     if (userNumber === randomNumber) {
         heading.textContent = "Toptiz!";
     }
